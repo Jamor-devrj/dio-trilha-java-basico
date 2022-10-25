@@ -1,10 +1,14 @@
 public class app {
     public static void main(String[] args) throws Exception {
         
-        int x = 10 * 2;
+        int a, b;
 
-        
-        System.out.println("BOM DIA");
-        System.out.println(x);
+        a = 6;
+        b = 10;
+
+        String resultado = a == b ? "verdadeiro" : "falso";
+
+       
+        System.out.println(resultado);
     }
 }
